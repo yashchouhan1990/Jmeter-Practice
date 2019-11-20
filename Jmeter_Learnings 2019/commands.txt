@@ -1,0 +1,2 @@
+jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Yash\Jmeter\Run_Via_Jenkins.jmx -l C:\Yash\Jmeter\result_jenkinsTest.csv
+jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Yash\Jmeter\Run_Via_Jenkins.jmx -l C:\Yash\Jmeter\result_jenkinstest1.jtl

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="931" it="0" lt="930" ct="264" ts="1574255431659" s="true" lb="/G2/-4" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6022" sby="366" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/</java.net.URL>
+</httpSample>
+<httpSample t="277" it="0" lt="276" ct="0" ts="1574255432596" s="true" lb="/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/0/0/0-25" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2786" sby="551" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/0/0/0?toClearCache=1574232509881</java.net.URL>
+</httpSample>
+<sample t="1208" it="151" lt="1206" ct="264" ts="1574255431519" s="true" lb="/G2/-4" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="8808" sby="917" ng="1" na="1"/>
+<httpSample t="969" it="0" lt="695" ct="259" ts="1574255447059" s="true" lb="/G2/Login.do;jsessionid=8D77A0A9B2A8E10A7133959BF0503E1C-36" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1800" sby="1260" ng="1" na="1">
+  <httpSample t="695" it="0" lt="695" ct="259" ts="1574255447059" s="true" lb="/G2/Login.do;jsessionid=8D77A0A9B2A8E10A7133959BF0503E1C-36-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="207" sby="712" ng="1" na="1">
+    <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/Login.do;jsessionid=8D77A0A9B2A8E10A7133959BF0503E1C</java.net.URL>
+  </httpSample>
+  <httpSample t="271" it="0" lt="271" ct="0" ts="1574255447757" s="true" lb="/G2/Login.do;jsessionid=8D77A0A9B2A8E10A7133959BF0503E1C-36-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1593" sby="548" ng="1" na="1">
+    <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/PostLogin.jsp</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/PostLogin.jsp</java.net.URL>
+</httpSample>
+<httpSample t="269" it="0" lt="269" ct="0" ts="1574255448031" s="true" lb="/G2/PostLogin.jsp-37" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1593" sby="455" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/PostLogin.jsp</java.net.URL>
+</httpSample>
+<httpSample t="280" it="0" lt="279" ct="0" ts="1574255448302" s="true" lb="/G2/ClientNotificationsAction.do-38" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="5745" sby="506" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/ClientNotificationsAction.do?currentDate=2019-11-20</java.net.URL>
+</httpSample>
+<httpSample t="287" it="0" lt="286" ct="0" ts="1574255448584" s="true" lb="/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/26/11/0-41" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3564" sby="604" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/26/11/0?toClearCache=1574232525728</java.net.URL>
+</httpSample>
+<httpSample t="804" it="0" lt="804" ct="0" ts="1574255448871" s="true" lb="/G2/ClientNotificationsAction.do-43" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2089" sby="691" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/ClientNotificationsAction.do</java.net.URL>
+</httpSample>
+<httpSample t="698" it="0" lt="698" ct="263" ts="1574255449679" s="true" lb="/G2/SystemAlert.jsp-52" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1021" sby="554" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/SystemAlert.jsp</java.net.URL>
+</httpSample>
+<httpSample t="265" it="0" lt="265" ct="0" ts="1574255450378" s="true" lb="/G2/AlertPopup.jsp-59" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1389" sby="503" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/AlertPopup.jsp</java.net.URL>
+</httpSample>
+<httpSample t="321" it="0" lt="320" ct="0" ts="1574255450645" s="true" lb="/G2/Dashboard.do-65" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6283" sby="538" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/Dashboard.do</java.net.URL>
+</httpSample>
+<httpSample t="498" it="0" lt="486" ct="0" ts="1574255450969" s="true" lb="/G2/G2RMSDashboardBodyAction.do-87" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6115" sby="553" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1574255451466" s="true" lb="/G2/G2RMSDashboardBodyAction.do-87-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1538" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/G2RMSDashboardBodyAction.do?nocache=90613.0235787369&amp;_=1574232533405</java.net.URL>
+</httpSample>
+<httpSample t="903" it="0" lt="903" ct="0" ts="1574255451467" s="true" lb="/G2/G2RMSDashboardAction.do-97" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6959" sby="728" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/G2RMSDashboardAction.do</java.net.URL>
+</httpSample>
+<sample t="5294" it="14198" lt="5005" ct="522" ts="1574255432879" s="true" lb="/G2/Login.do;jsessionid=8D77A0A9B2A8E10A7133959BF0503E1C-36" rc="200" rm="Number of samples in transaction : 10, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="36558" sby="6392" ng="1" na="1"/>
+<httpSample t="695" it="0" lt="688" ct="250" ts="1574255467778" s="true" lb="/G2/Reports.do-104" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6289" sby="532" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/Reports.do</java.net.URL>
+</httpSample>
+<httpSample t="520" it="0" lt="519" ct="0" ts="1574255468477" s="true" lb="/G2/reports_v2/RptCat.jsp-108" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="10474" sby="542" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/reports_v2/RptCat.jsp</java.net.URL>
+</httpSample>
+<httpSample t="284" it="0" lt="283" ct="0" ts="1574255468998" s="true" lb="/G2/QuickLinksReportsMain.do?operation=Retrieve&amp;propID=11-128" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="261" sby="657" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/QuickLinksReportsMain.do?operation=Retrieve&amp;propID=11</java.net.URL>
+</httpSample>
+<httpSample t="279" it="0" lt="273" ct="0" ts="1574255469284" s="true" lb="/G2/reports_v2/RptFilter.jsp-131" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3093" sby="586" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/reports_v2/RptFilter.jsp?UID=1&amp;PID=1&amp;RID=42&amp;menuId=101</java.net.URL>
+</httpSample>
+<httpSample t="276" it="0" lt="276" ct="0" ts="1574255469564" s="true" lb="/G2/rest/forcastValidationReport/searchcriteria/11/null/null-138" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="5351" sby="724" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/rest/forcastValidationReport/searchcriteria/11/null/null</java.net.URL>
+</httpSample>
+<sample t="2054" it="15416" lt="2039" ct="250" ts="1574255452371" s="true" lb="/G2/Reports.do-104" rc="200" rm="Number of samples in transaction : 5, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="25468" sby="3041" ng="1" na="1"/>
+<httpSample t="1945" it="0" lt="1729" ct="252" ts="1574255480338" s="true" lb="/G2/rest/forcastValidationReport/display-139" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="54403" sby="2030" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/rest/forcastValidationReport/display</java.net.URL>
+</httpSample>
+<sample t="1945" it="10498" lt="1729" ct="252" ts="1574255469841" s="true" lb="/G2/rest/forcastValidationReport/display-139" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="54403" sby="2030" ng="1" na="1"/>
+<httpSample t="710" it="0" lt="709" ct="268" ts="1574255500550" s="true" lb="/G2/Logout.do-140" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6009" sby="530" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/Logout.do</java.net.URL>
+</httpSample>
+<httpSample t="276" it="0" lt="276" ct="0" ts="1574255501262" s="true" lb="/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/0/0/0-143" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2786" sby="643" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/0/0/0?toClearCache=1574232586780</java.net.URL>
+</httpSample>
+<sample t="986" it="18270" lt="985" ct="268" ts="1574255482284" s="true" lb="/G2/Logout.do-140" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="8795" sby="1173" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1574255501550" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="16910" sby="0" ng="1" na="1"/>
+
+<httpSample t="961" it="0" lt="961" ct="293" ts="1574255515124" s="true" lb="/G2/-4" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6022" sby="366" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/</java.net.URL>
+</httpSample>
+<httpSample t="281" it="0" lt="280" ct="0" ts="1574255516090" s="true" lb="/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/0/0/0-25" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2786" sby="551" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/0/0/0?toClearCache=1574232509881</java.net.URL>
+</httpSample>
+<sample t="1242" it="141" lt="1241" ct="293" ts="1574255514989" s="true" lb="/G2/-4" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="8808" sby="917" ng="1" na="1"/>
+<httpSample t="798" it="0" lt="538" ct="251" ts="1574255530578" s="true" lb="/G2/Login.do;jsessionid=8D77A0A9B2A8E10A7133959BF0503E1C-36" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1800" sby="1260" ng="1" na="1">
+  <httpSample t="538" it="0" lt="538" ct="251" ts="1574255530578" s="true" lb="/G2/Login.do;jsessionid=8D77A0A9B2A8E10A7133959BF0503E1C-36-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="207" sby="712" ng="1" na="1">
+    <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/Login.do;jsessionid=8D77A0A9B2A8E10A7133959BF0503E1C</java.net.URL>
+  </httpSample>
+  <httpSample t="257" it="0" lt="257" ct="0" ts="1574255531119" s="true" lb="/G2/Login.do;jsessionid=8D77A0A9B2A8E10A7133959BF0503E1C-36-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1593" sby="548" ng="1" na="1">
+    <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/PostLogin.jsp</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/PostLogin.jsp</java.net.URL>
+</httpSample>
+<httpSample t="295" it="0" lt="295" ct="0" ts="1574255531377" s="true" lb="/G2/PostLogin.jsp-37" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1593" sby="455" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/PostLogin.jsp</java.net.URL>
+</httpSample>
+<httpSample t="275" it="0" lt="275" ct="0" ts="1574255531674" s="true" lb="/G2/ClientNotificationsAction.do-38" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="5745" sby="506" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/ClientNotificationsAction.do?currentDate=2019-11-20</java.net.URL>
+</httpSample>
+<httpSample t="269" it="0" lt="269" ct="0" ts="1574255531950" s="true" lb="/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/26/11/0-41" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3564" sby="604" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/26/11/0?toClearCache=1574232525728</java.net.URL>
+</httpSample>
+<httpSample t="734" it="0" lt="734" ct="0" ts="1574255532221" s="true" lb="/G2/ClientNotificationsAction.do-43" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2089" sby="691" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/ClientNotificationsAction.do</java.net.URL>
+</httpSample>
+<httpSample t="690" it="0" lt="690" ct="256" ts="1574255532959" s="true" lb="/G2/SystemAlert.jsp-52" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1021" sby="554" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/SystemAlert.jsp</java.net.URL>
+</httpSample>
+<httpSample t="273" it="0" lt="273" ct="0" ts="1574255533650" s="true" lb="/G2/AlertPopup.jsp-59" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1389" sby="503" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/AlertPopup.jsp</java.net.URL>
+</httpSample>
+<httpSample t="378" it="0" lt="376" ct="0" ts="1574255533925" s="true" lb="/G2/Dashboard.do-65" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6283" sby="538" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/Dashboard.do</java.net.URL>
+</httpSample>
+<httpSample t="506" it="0" lt="498" ct="0" ts="1574255534305" s="true" lb="/G2/G2RMSDashboardBodyAction.do-87" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6118" sby="553" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1574255534811" s="true" lb="/G2/G2RMSDashboardBodyAction.do-87-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1538" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/G2RMSDashboardBodyAction.do?nocache=90613.0235787369&amp;_=1574232533405</java.net.URL>
+</httpSample>
+<httpSample t="892" it="0" lt="891" ct="0" ts="1574255534812" s="true" lb="/G2/G2RMSDashboardAction.do-97" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6959" sby="728" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/G2RMSDashboardAction.do</java.net.URL>
+</httpSample>
+<sample t="5110" it="14221" lt="4839" ct="507" ts="1574255516373" s="true" lb="/G2/Login.do;jsessionid=8D77A0A9B2A8E10A7133959BF0503E1C-36" rc="200" rm="Number of samples in transaction : 10, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="36561" sby="6392" ng="1" na="1"/>
+<httpSample t="706" it="0" lt="701" ct="264" ts="1574255551073" s="true" lb="/G2/Reports.do-104" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6289" sby="532" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/Reports.do</java.net.URL>
+</httpSample>
+<httpSample t="538" it="0" lt="537" ct="0" ts="1574255551783" s="true" lb="/G2/reports_v2/RptCat.jsp-108" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="10474" sby="542" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/reports_v2/RptCat.jsp</java.net.URL>
+</httpSample>
+<httpSample t="283" it="0" lt="283" ct="0" ts="1574255552322" s="true" lb="/G2/QuickLinksReportsMain.do?operation=Retrieve&amp;propID=11-128" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="261" sby="657" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/QuickLinksReportsMain.do?operation=Retrieve&amp;propID=11</java.net.URL>
+</httpSample>
+<httpSample t="304" it="0" lt="304" ct="0" ts="1574255552606" s="true" lb="/G2/reports_v2/RptFilter.jsp-131" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3092" sby="586" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/reports_v2/RptFilter.jsp?UID=1&amp;PID=1&amp;RID=42&amp;menuId=101</java.net.URL>
+</httpSample>
+<httpSample t="316" it="0" lt="316" ct="0" ts="1574255552912" s="true" lb="/G2/rest/forcastValidationReport/searchcriteria/11/null/null-138" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="5351" sby="724" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/rest/forcastValidationReport/searchcriteria/11/null/null</java.net.URL>
+</httpSample>
+<sample t="2147" it="15377" lt="2141" ct="264" ts="1574255535704" s="true" lb="/G2/Reports.do-104" rc="200" rm="Number of samples in transaction : 5, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="25467" sby="3041" ng="1" na="1"/>
+<httpSample t="1982" it="0" lt="1792" ct="271" ts="1574255563644" s="true" lb="/G2/rest/forcastValidationReport/display-139" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="54403" sby="2030" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/rest/forcastValidationReport/display</java.net.URL>
+</httpSample>
+<sample t="1982" it="10415" lt="1792" ct="271" ts="1574255553229" s="true" lb="/G2/rest/forcastValidationReport/display-139" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="54403" sby="2030" ng="1" na="1"/>
+<httpSample t="800" it="0" lt="592" ct="282" ts="1574255583842" s="true" lb="/G2/Logout.do-140" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6009" sby="530" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/Logout.do</java.net.URL>
+</httpSample>
+<httpSample t="293" it="0" lt="293" ct="0" ts="1574255584644" s="true" lb="/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/0/0/0-143" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2786" sby="643" ng="1" na="1">
+  <java.net.URL>http://us1d3ci08.ideasdev.int:8081/G2/rest/clientnotifications/rms/showNotifications/2019-11-20/0/0/0?toClearCache=1574232586780</java.net.URL>
+</httpSample>
+<sample t="1093" it="18219" lt="885" ct="282" ts="1574255565626" s="true" lb="/G2/Logout.do-140" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="8795" sby="1173" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1574255584941" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="16909" sby="0" ng="1" na="1"/>
+
+</testResults>

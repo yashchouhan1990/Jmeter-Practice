@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2770" it="0" lt="2252" ct="1070" ts="1574254978022" s="true" lb="lifecharger_HomePage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55417" sby="120" ng="1" na="1">
+  <java.net.URL>https://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3343" it="0" lt="1802" ct="800" ts="1574254980815" s="true" lb="lifecharger_archives" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="43789" sby="977" ng="1" na="1">
+  <httpSample t="1802" it="0" lt="1802" ct="800" ts="1574254980815" s="true" lb="lifecharger_archives-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="764" sby="488" ng="1" na="1">
+    <java.net.URL>https://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1539" it="0" lt="1023" ct="0" ts="1574254982619" s="true" lb="lifecharger_archives-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="43025" sby="489" ng="1" na="1">
+    <java.net.URL>https://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="1971" it="0" lt="1721" ct="771" ts="1574254984164" s="true" lb="lifecharger_Aboutpage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="33557" sby="486" ng="1" na="1">
+  <java.net.URL>https://lifecharger.org/about/</java.net.URL>
+</httpSample>
+<httpSample t="1006" it="0" lt="952" ct="0" ts="1574254986138" s="true" lb="lifecharger_books" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="34286" sby="499" ng="1" na="1">
+  <java.net.URL>https://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+
+<httpSample t="2792" it="0" lt="2307" ct="1010" ts="1574255002450" s="true" lb="lifecharger_HomePage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55417" sby="120" ng="1" na="1">
+  <java.net.URL>https://lifecharger.org/</java.net.URL>
+</httpSample>
+<httpSample t="3548" it="0" lt="1816" ct="806" ts="1574255005251" s="true" lb="lifecharger_archives" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="43783" sby="977" ng="1" na="1">
+  <httpSample t="1816" it="0" lt="1816" ct="806" ts="1574255005251" s="true" lb="lifecharger_archives-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="764" sby="488" ng="1" na="1">
+    <java.net.URL>https://lifecharger.org/archives</java.net.URL>
+  </httpSample>
+  <httpSample t="1727" it="0" lt="1212" ct="0" ts="1574255007072" s="true" lb="lifecharger_archives-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="43019" sby="489" ng="1" na="1">
+    <java.net.URL>https://lifecharger.org/archives/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://lifecharger.org/archives/</java.net.URL>
+</httpSample>
+<httpSample t="2069" it="0" lt="1813" ct="790" ts="1574255008802" s="true" lb="lifecharger_Aboutpage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="33557" sby="486" ng="1" na="1">
+  <java.net.URL>https://lifecharger.org/about/</java.net.URL>
+</httpSample>
+<httpSample t="2104" it="0" lt="1801" ct="813" ts="1574255010877" s="true" lb="lifecharger_books" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="34286" sby="499" ng="1" na="1">
+  <java.net.URL>https://lifecharger.org/books-i-am-reading/</java.net.URL>
+</httpSample>
+
+</testResults>
